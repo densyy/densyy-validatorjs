@@ -2,16 +2,15 @@
 
 const Validator = require('validatorjs')
 
-/* ---- Helpers ---- */
+/* ---- Assets ---- */
 
 const language = require('./assets/lang/pt-br')
-const firstFn = require('./assets/prototype/first')
+const firstError = require('./assets/functions/firstError')
 
 /* ---- Default ---- */
 
 Validator.setMessages('en', language)
-Validator.prototype.first = firstFn
 
 /* ---- Exports ---- */
 
-module.exports = Validator
+module.exports = { Validator, firstError }
