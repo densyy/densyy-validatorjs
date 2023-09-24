@@ -2,10 +2,8 @@
 
 const Validator = require('validatorjs')
 
-/* ---- Assets ---- */
-
-const language = require('./assets/lang/pt-br')
-const firstError = require('./assets/functions/firstError')
+const language = require('./src/lang/pt-br')
+const firstError = require('./src/functions/firstError')
 
 /* ---- Default ---- */
 
