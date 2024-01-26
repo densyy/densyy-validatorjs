@@ -6,7 +6,7 @@
   "author": "densyy",
   "repository": {
     "type": "git",
-    "url": "git://github.com/densyy/densyy-validatorjs"
+    "url": "git://github.com/densyy/densyy-validatorjs.git"
   },
   "license": "UNLICENSED",
   "dependencies": {
