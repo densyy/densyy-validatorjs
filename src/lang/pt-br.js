@@ -90,7 +90,7 @@ module.exports = {
   required_with_all: 'O campo :attribute é obrigatório quando um dos :values está presente.',
   required_without: 'O campo :attribute é obrigatório quando :values não está presente.',
   required_without_all: 'O campo :attribute é obrigatório quando nenhum dos :values está presente.',
-  same: 'Os campos :attribute e :other devem conter valores iguais.',
+  same: 'Os campos :attribute e :same devem conter valores iguais.',
   size: {
     numeric: 'O campo :attribute deve conter o número :size.',
     file: 'O campo :attribute deve conter um arquivo com o tamanho de :size kilobytes.',
